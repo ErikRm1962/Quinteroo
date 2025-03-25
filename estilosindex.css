@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+    }
+    
+    header{
+        margin-top: 30px;
+        background-color: rgb(0, 0, 0);
+        width: 1925px;
+        height: 200px;
+        border-radius: 100px 100px 100px 100px;
+        opacity: 100%;
+        box-shadow: 10px 10px 10px 10px rgb(41, 0, 0);
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    
+    
+    }
+    
+    .logo{
+        background-color: rgb(0, 0, 0);
+        width: 100px;
+        height: 100px;
+        margin-top: 12px;
+        margin-left: 45px;
+    }
+    
+    .titulo{
+        color: rgb(0, 0, 0);
+        margin-top: 30px;
+    
+    }
+    
+    .boton{
+        background-color: rgb(0, 0, 0);
+        width: 146px;
+        height: 50px;
+        margin-top: 58px;
+        margin-right: 45px;
+    
+    
+    }
+    
+    .textotitulo{
+        color: rgb(255, 255, 255);
+        font-size: 100px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 5px;
+        text-shadow: 2px 2px 2px rgb(34, 3, 3);
+    }
+
+    .botonIngreso{
+        color: beige;
+        font-size: 20px;
+        border: 20px;
+        border: 1px solid rgb(128, 0, 0);
+        padding: 5px;
+    }
+
+    .botonIngreso:hover{
+        color: firebrick;
+        font-size: 25px;
+        border: 1px solid rgb(255, 255, 255);
+        padding: 10px;
+    }
+
+    nav{
+        
+        margin-top: 20px;
+        background-color: rgb(48, 2, 2);
+        width: 100%;
+        height: 60px;
+        margin-top: 12px;
+        border-radius: 100px 100px 100px 100px;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+
+    
+    }
+
+    nav li{
+        display: inline;
+        margin-right: 40px;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+
+    nav a:hover{
+        text-decoration: underline;
+        color: beige;
+        font-size: 22px;
+
+    }
+
+    nav:hover  {
+        opacity: 80%;
+        margin-top: 20px;
+        background-color: rgb(48, 2, 2);
+        width: 100%;
+        height: 60px;
+        margin-top: 12px;
+        border-radius: 100px 100px 100px 100px;
+        display: flex;
+        justify-content: center;
+        padding-top: 3px;
+    }
+
+    .principal{
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 500px;
+        opacity: 100%;
+    }
+
+    footer{
+        background-color: rgb(102, 9, 9);
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .url{
+        color: brown;
+        font-size: 20px;
+    }

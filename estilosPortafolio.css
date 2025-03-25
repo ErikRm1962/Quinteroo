@@ -1,0 +1,33 @@
+.principalPortafolio{
+    background-color: rgba(0, 0, 0, 0.897);
+    width: 100%;
+    height: 550px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    }
+    .fotom{
+        width: 950px;
+        height:500px ;
+        border: 1px solid rgba(0, 0, 0, 0.767);
+        display: flex;
+        justify-content: center; 
+flex-wrap: wrap;  }
+        .fotoma{
+            width: 250px;
+            height: 200px ;
+            border: 1px solid rgba(0, 0, 0, 0.767);
+    margin-top: 30px;
+            margin-left: 30px;
+            align-content: center;
+       padding-left: 10px;
+            }
+       .fotoma:hover{
+        width: 270px;
+            height: 220px ;
+            border: 1px solid rgb(141, 7, 7);
+    margin-top: 30px;
+            margin-left: 30px;
+            align-content: center;
+       padding-left: 10px;
+     }
